@@ -1,1 +1,4 @@
-# Data-Analysis
+This program reads a CSV file and analyzes sales data. First, it imports pandas and matplotlib so we can work with tables and create graphs. Then it loads the CSV file into a variable called df. It shows the first few rows to understand what the data looks like. It checks information about the data like column types and basic statistics. Next, it checks if there are any missing values. If some data is missing, it replaces those empty values with 0.
+After that, it creates a new column called Total by multiplying Quantity and Price. This shows how much money each row earned. Then it groups the data by Product and calculates how much money each product earned in total. It draws a bar chart to show which product made the most revenue.
+The program also converts the Date column into a real date format. Then it groups the data month-wise to see how much money was earned each month. It creates a line chart to show the monthly sales trend.
+It then finds which product made the highest revenue. Finally, it saves all the cleaned and updated data into a new CSV file called cleaned_sales.csv.
